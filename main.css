@@ -143,7 +143,7 @@ p {
 }
 
 .photo-area {
-    height: 300px;
+    height: 230px;
     border-top: 1px solid white;
     display: flex;
     justify-content: space-between;
@@ -162,10 +162,15 @@ p {
     border-radius: 50%;
 }
 
+.bottom-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .side-nav {
-    width: 40%;
-    margin-top: 20px;
-    margin-left: 140px;
+    width: 20%;
     border-radius: 20px;
     background: rgba(204,213,255,1);
     background: -moz-linear-gradient(-45deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
@@ -186,4 +191,24 @@ p {
 .side-list li {
     list-style: none;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-list li a:hover {
+    color: #1b70f9;
+    text-decoration: underline;
+}
+
+.user-info {
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: rgba(204,213,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
+    background: -webkit-gradient(left top, right bottom, color-stop(41%, rgba(204,213,255,1)), color-stop(42%, rgba(204,213,255,1)), color-stop(70%, rgba(169,240,211,1)), color-stop(85%, rgba(150,255,187,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
+    background: -o-linear-gradient(-45deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
+    background: -ms-linear-gradient(-45deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
+    background: linear-gradient(135deg, rgba(204,213,255,1) 41%, rgba(204,213,255,1) 42%, rgba(169,240,211,1) 70%, rgba(150,255,187,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd5ff', endColorstr='#96ffbb', GradientType=1 );
 }
