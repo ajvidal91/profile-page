@@ -7,10 +7,9 @@ body {
     background: -ms-linear-gradient(-45deg, rgba(123,139,209,1) 41%, rgba(23,189,83,1) 69%, rgba(19,191,79,1) 70%);
     background: linear-gradient(135deg, rgba(123,139,209,1) 41%, rgba(23,189,83,1) 69%, rgba(19,191,79,1) 70%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8bd1', endColorstr='#13bf4f', GradientType=1 );
-    }
+}
 
 .wrapper {
-    height: 800px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -67,7 +66,7 @@ body {
 .heading-container h1 {
     font-weight: 100;
     font-family: 'Rouge Script', cursive;
-
+    color: #060256;
 }
 
 .icons-container {
@@ -77,6 +76,7 @@ body {
 
 .details {
     font-family: 'Roboto', sans-serif;
+    color: #060256;
 }
 
 ul {
