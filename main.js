@@ -14,11 +14,5 @@ $(function(){
             $("#down").css("color", "#5b147a")
     })
 
-    // var heart = $("#heart");
-    // var up = $("up");
-    // var down = $("down");
-    //
-    // if (heart === $(".fas") && up === $(".fas")){
-    //     return heart.removeClass("fas")
-    // }else if ()
+
 })
